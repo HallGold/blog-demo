@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css2?family=Pacifico&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Gluten:wght@900&display=swap);
+/* 
+{
+  xs: '480px',
+  sm: '576px',
+  md: '768px',
+  lg: '992px',
+  xl: '1200px',
+  xxl: '1600px',
+}
+*/
+
+/* @media screen and (max-width: 530px) {
+  .neon {
+    font-size: 1.5rem !important;
+  }
+} */
+@media screen and (max-width: 920px) {
+  .neon {
+    font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .neon {
+    font-size: 1.8rem !important;
+  }
+}
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  /* text-align: right; */
+  /* background: black; */
+}
+
+.neon {
+  color: #34e9b2;
+  font-size: 2.5rem;
+  font-family: 'Gluten', cursive;
+  text-transform: uppercase;
+  animation: shining 0.1s alternate infinite;
+}
+
+@keyframes shining {
+  from {
+    text-shadow: 0 0 6px rgba(182, 211, 207, 0.9), 0 0 30px rgba(182, 211, 207, 0.3), 0 0 12px rgba(15, 115, 223, 0.5), 0 0 21px rgba(15, 115, 223, 0.9), 0 0 34px rgba(15, 115, 223, 0.8), 0 0 54px rgba(15, 115, 223, 0.9);
+  }
+  to {
+    text-shadow: 0 0 6px rgba(182, 211, 207, 1), 0 0 30px rgba(182, 211, 207, 0.4), 0 0 12px rgba(15, 115, 223, 0.6), 0 0 22px rgba(15, 115, 223, 0.8), 0 0 38px rgba(15, 115, 223, 0.9), 0 0 60px rgba(15, 115, 223, 1);
+  }
+}

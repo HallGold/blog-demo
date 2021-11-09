@@ -1,0 +1,20 @@
+.ant-row {
+  padding: 10px 20px;
+}
+.Colstyle {
+  display: flex;
+  justify-content: flex-end;
+}
+.textListContainer {
+  width: 100%;
+  height: 500px;
+  overflow-y: auto;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 750px) {
+  .Colstyle {
+    display: flex;
+    justify-content: center;
+  }
+}
